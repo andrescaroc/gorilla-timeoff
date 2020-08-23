@@ -57,7 +57,7 @@ systemctl enable docker
 # Create Docker Image
 mkdir andres-timeoff
 cd andres-timeoff
-cat > Dockerfile<<EOF
+cat > Dockerfile<<EOF2
 FROM centos:centos7
 
 RUN curl -sL https://rpm.nodesource.com/setup_12.x | bash -
@@ -74,7 +74,7 @@ EXPOSE 3000
 RUN npm install
 
 ENTRYPOINT npm start
-EOF
+EOF2
 docker build -t timeoff:andres .
 # 
 # ===
