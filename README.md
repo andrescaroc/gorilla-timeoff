@@ -86,6 +86,7 @@ sleep 3
 # ===
 # Run docker container with timeoff:andres image
 docker run -p 3000:3000 timeoff:andres
+EOF
 ````
 4. Run `bash gorilla-timeoff-docker.sh`
 5. Setupt VPC Network firewall rule to allow incoming traffic on port 3000
