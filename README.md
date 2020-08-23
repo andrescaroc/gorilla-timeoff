@@ -32,7 +32,7 @@ sleep 3
 #
 # ===
 # Start timeoff.management
-npm start
+(npm run start&)
 EOF
 ````
 4. Run `bash gorilla-timeoff-script.sh`
