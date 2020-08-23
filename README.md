@@ -35,5 +35,6 @@ sleep 3
 npm start
 EOF
 ````
-4. Setupt VPC Network firewall rule to allow incoming traffic on port 3000
-5. Use a web browser to access the app using your public IP `http://<<public-ip>>:3000/`
+4. Run `bash gorilla-timeoff-script.sh`
+5. Setupt VPC Network firewall rule to allow incoming traffic on port 3000
+6. Use a web browser to access the app using your public IP `http://<<public-ip>>:3000/`
